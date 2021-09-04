@@ -96,10 +96,9 @@ def pushToArray(elements, content :list= []):
                     content[CONTENT].append(pushToArray(el, {TAG: el.name,ATTRS: el.attrs ,CONTENT: []}))
                 else:
                     print(type(el))
-            # content.append()
     return content # 
 
-def printTypesRecursive(obj):
+def printTypesRecursive(obj): # getting the object from pushToArray method to see all the types
     if type(obj) == list:
         for el in obj:
             printTypesRecursive(el)

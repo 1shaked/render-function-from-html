@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask
 from convertor import HtmlConverter
 from flask_cors import CORS, cross_origin
 # import os
