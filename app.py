@@ -17,7 +17,7 @@ def index(): # html_content is a string
         return {"success": "Successfully got render func.", "data": html.soupToJson() }
     except Exception as e:
         print(e)
-        return {"error": "no article in this id" }
+        return {"error": "can not convert this html to render func" }
 
 
 if __name__ == '__main__':
