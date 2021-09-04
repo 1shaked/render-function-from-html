@@ -1,19 +1,23 @@
-<!DOCTYPE html><html><head><title>a7 item</title><style> 
-			body {font-family:arial; direction: rtl; text-align:right;; font-size:12pt; margin:0; padding:0; } img {max-width: 100%} body > p:first-child {margin-top: 0px} iframe, video {max-width: 100%} 
-			.ytvideo {border: 0px; width:100vw; height: 56vw; margin-bottom: 10px}
-			body.Native .IVideo { height:53vw;position:relative;background-color: gray; overflow:hidden;}
-			body.Native .IVideo img.play {position:absolute;top:calc(50% - 38px);left:calc(50% - 38px);}
-			body.Native .IVideo img.video {width:100%;height:54vw;}
-			.IVideo .title {color: gray; font-size:11pt; min-height: 1.3em; border-bottom: solid 1px black; display:flex;     flex-wrap: wrap;}
-			</style><meta name='viewport' content='width=device-width,maximum-scale=1,initial-scale=1,user-scalable=no' /><script> function StopAudio(){ document.querySelectorAll("audio").forEach(f=>f.pause())}  function ExecuteJS(url,func) {var scriptElem = document.createElement('script'); scriptElem.setAttribute('src',url+(func?'&func='+func:'')); window.document.getElementsByTagName('head')[0].appendChild(scriptElem);}</script></head><body class=Native><p><div><div class='a7video IVideo'    data-player="{&quot;type&quot;:3,&quot;id&quot;:2093711,&quot;title&quot;:&quot;צפו: ערן זהבי מברך 'הגומל'&quot;,&quot;url&quot;:&quot;a7radio/misc/video/21/may/VID-20210510-WA0074.mp4&quot;,&quot;image&quot;:1014138,&quot;author&quot;:&quot;&quot;,&quot;date&quot;:&quot;2021-05-10T12:23:38&quot;,&quot;credit&quot;:&quot;באדיבות המצלם&quot;}" onclick="if(window.Android)Android.setVideo(JSON.stringify({title:'test',src:this.getAttribute('data-src')}))"  data-src='http://u.inn.co.il/media/a7radio/misc/video/21/may/VID-20210510-WA0074.mp4'>
-			<img class=play src=http://a7.org/static/Images/objects/play.png><img class=video  src='http://a7.org/pictures/1014/1014138.jpg'></div></div>
-			<div class=title><b style='display: inline-block'>צפו: ערן זהבי מברך 'הגומל'</b><span style='display: inline-block'></span></div></p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    hey
 
-<p>הכדורגלן הישראלי ערן זהבי עזב אתמול את סגל קבוצתו בהולנד ונסע אל ביתו בעקבות שוד אלים שעברו אשתו וילדיו בביתם. </p>
-
-<p>לפי דיווחים, השודדים היו חמושים כשאחד מהם חדר לדירה כשהוא מתחזה לשליח. המשטרה פתחה במצוד אחרי השודדים. משטרת הולנד אמרה לכאן חדשות: &quot;לא פוסלים מניע אנטישמי בפריצה לביתו של זהבי, אבל זה לא כיוון החקירה הראשון&quot;. </p>
-
-<p>רעייתו של זהבי, שי, פרסמה תגובה ראשונה בפוסט באינסטגרם וכתבה: &quot;עברנו מקרה מזעזע של שוד ותקיפה במקום שאמור להיות עבורנו הכי בטוח בעולם - הבית שלנו. עברו עלינו שעות קשות ואנחנו צריכים רגע לעכל. חשוב לי לציין שלא הרימו יד על הילדים והם בסדר גמור, פיזית. נפשית אנחנו כולנו נצטרך לעבוד יחד ולעבור את זה בתקופה הטובה ביותר. אני מודה לכולם מקרב לב על הדאגה ועל הרצון לעזור. זה מחמם את הלב&quot;. </p>
-
-<p></p>
-<img style='display: none' src="http://www.inn.co.il/Generic/IOS/EsiLog?type=0&amp;item=492085" /></body></html>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        const get_news = async () => {
+            const url = 'Generic/NewApi/Cat?type=10';
+            const base = false ? 'http://127.0.0.1:5000/api/' : `https://news7article-vuf2ujuoha-ew.a.run.app/api/`
+            const response = await axios.get(base, { params: { path: url}});//for not secure origins //TODO: remove in production
+            return response
+        }
+        console.log(get_news())
+    </script>
+</body>
+</html>
