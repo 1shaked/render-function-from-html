@@ -58,7 +58,10 @@ class HtmlConverter:
             self.html = str(soup)
 
     def soupToJson(self):
-        return pushToArray(self.soup, [])[0][CONTENT][0][CONTENT][0][CONTENT] # TODO: remove nesting so many objects (there is the default XXX and body and then main div)
+        res = pushToArray(self.soup, [])
+        with open('test.json', 'w') as f: # if you want to save the result in json file
+            f.write(json.dumps(res, indent=4, ensure_ascii=False))
+        return res[0] # TODO: remove the object at the start so you getting object and not array
 
     def saveToFile(self):
         with open('test.json', mode='w', encoding='utf8') as f:
@@ -81,7 +84,7 @@ def pushToArray(elements, content :list= []):
                     content[CONTENT].append(str(el.string))
         elif type(el) == element.Tag:
             if (len(content) == 0):
-                content.append({TAG: 'XXX', CONTENT: [] })
+                content.append({TAG: 'div', CONTENT: [] })
             if len(el.contents) == 1 and type(el.contents[0]) == element.NavigableString:
                 if type(content) == dict:
                     content[CONTENT].append({TAG: el.name,ATTRS: el.attrs, CONTENT: str(el.contents[0].string)})
