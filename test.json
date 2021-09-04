@@ -1,107 +1,160 @@
-{
-    "html": "<body> <p>  שופט בית המשפט העליון אלכס שטיין דחה היום (חמישי) את ערעור הפרקליטות על ההחלטה לשחרר את רומן זדורוב למעצר בית - והוא ישוחרר למעצר בית בקצרין. </p> <ad-component uid=\"1\"> </ad-component> <p>  זדורוב הכלוא מאז מעצרו בדצמבר 2006 יעמוד למשפט חוזר על הרשעתו ברצח תאיר ראדה לפני 15 שנה. עד להכרעה במשפט הוא ישהה במעצר בית באיזוק אלקטרוני. </p> <p>  בתחילת אוגוסט הורה בית המשפט המחוזי לשחרר את זדורוב למעצר בית בתנאים מגבילים, לאחר שקבע כי המדינה לא הצליחה להוכיח שיש נסיבות מיוחדות שמצדיקות את המשך מעצרו. הפרקליטות עתרה לעליון לאחר שסברה שיש להשאיר את זדורוב במעצר בעת קיום משפטו החוזר, הן בשל המסוכנות הנשקפת ממנו לדבריה, הן בשל החשש שיימלט. </p> <taboola-component category=\"article\" mode=\"rbox-only-video\" placement=\"rbox-only-video\" uid=\"2\"> </taboola-component> <p>  השופט שטיין קבע רשימת תנאים מגבילים שהוטלו על זדורוב: איסור כניסת מבקרים לבית בו הוא שוהה, למעט קרובים מדרגה ראשונה ושנייה, גורמי אכיפת החוק יכולים לבצע האזנות סתר לשיחות של זדורוב והמפקחים עליו, וכל תעודה של זדורוב כמו רישיון נהיגה ודרכון תופקד בבית המשפט. </p> <p> </p> <ad-component uid=\"3\"> </ad-component> <p>  לפי השופט שטיין, המסוכנות שלכאורה נשקפת מזדורוב פחתה היעדר בעיות משמעת במשך ה-15 שנים האחרונות. </p> <p>  זדורוב ישהה במעצר בית תחת איזוק אלקטרוני ויהיה נתון לפיקוח במשך 24 שעות ביממה. הוא ישלם ערבויות בסך מאות אלפי שקלים. הגורמים שמונו לשמור עליו יחתמו ערבות בסך 150 אלף שקלים. </p> <taboola-component category=\"article\" mode=\"rbox-only-video\" placement=\"rbox-only-video\" uid=\"4\"> </taboola-component> <p>  עורך הדין ירום הלוי המייצג את זדורוב אמר כי \"רומן ייצא כנראה במהלך היום מהכלא, זה כמעט בלתי נקלט\". </p> <p>  <blockquote data-lang=\"he\">   <twitter-component href=\"https://twitter.com/kann_news/status/1430794642094759936\">   </twitter-component>  </blockquote> </p> <ad-component uid=\"5\"> </ad-component></body>",
-    "json": [
-        {
-            "tag": "p",
-            "attrs": {},
-            "content": "שופט בית המשפט העליון אלכס שטיין דחה היום (חמישי) את ערעור הפרקליטות על ההחלטה לשחרר את רומן זדורוב למעצר בית - והוא ישוחרר למעצר בית בקצרין."
-        },
-        {
-            "tag": "ad-component",
-            "attrs": {
-                "uid": 1
-            },
-            "content": []
-        },
-        {
-            "tag": "p",
-            "attrs": {},
-            "content": "זדורוב הכלוא מאז מעצרו בדצמבר 2006 יעמוד למשפט חוזר על הרשעתו ברצח תאיר ראדה לפני 15 שנה. עד להכרעה במשפט הוא ישהה במעצר בית באיזוק אלקטרוני."
-        },
-        {
-            "tag": "p",
-            "attrs": {},
-            "content": "בתחילת אוגוסט הורה בית המשפט המחוזי לשחרר את זדורוב למעצר בית בתנאים מגבילים, לאחר שקבע כי המדינה לא הצליחה להוכיח שיש נסיבות מיוחדות שמצדיקות את המשך מעצרו. הפרקליטות עתרה לעליון לאחר שסברה שיש להשאיר את זדורוב במעצר בעת קיום משפטו החוזר, הן בשל המסוכנות הנשקפת ממנו לדבריה, הן בשל החשש שיימלט."
-        },
-        {
-            "tag": "taboola-component",
-            "attrs": {
-                "category": "article",
-                "mode": "rbox-only-video",
-                "placement": "rbox-only-video",
-                "uid": 2
-            },
-            "content": []
-        },
-        {
-            "tag": "p",
-            "attrs": {},
-            "content": "השופט שטיין קבע רשימת תנאים מגבילים שהוטלו על זדורוב: איסור כניסת מבקרים לבית בו הוא שוהה, למעט קרובים מדרגה ראשונה ושנייה, גורמי אכיפת החוק יכולים לבצע האזנות סתר לשיחות של זדורוב והמפקחים עליו, וכל תעודה של זדורוב כמו רישיון נהיגה ודרכון תופקד בבית המשפט."
-        },
-        {
-            "tag": "p",
-            "attrs": {},
-            "content": []
-        },
-        {
-            "tag": "ad-component",
-            "attrs": {
-                "uid": 3
-            },
-            "content": []
-        },
-        {
-            "tag": "p",
-            "attrs": {},
-            "content": "לפי השופט שטיין, המסוכנות שלכאורה נשקפת מזדורוב פחתה היעדר בעיות משמעת במשך ה-15 שנים האחרונות."
-        },
-        {
-            "tag": "p",
-            "attrs": {},
-            "content": "זדורוב ישהה במעצר בית תחת איזוק אלקטרוני ויהיה נתון לפיקוח במשך 24 שעות ביממה. הוא ישלם ערבויות בסך מאות אלפי שקלים. הגורמים שמונו לשמור עליו יחתמו ערבות בסך 150 אלף שקלים."
-        },
-        {
-            "tag": "taboola-component",
-            "attrs": {
-                "category": "article",
-                "mode": "rbox-only-video",
-                "placement": "rbox-only-video",
-                "uid": 4
-            },
-            "content": []
-        },
-        {
-            "tag": "p",
-            "attrs": {},
-            "content": "עורך הדין ירום הלוי המייצג את זדורוב אמר כי \"רומן ייצא כנראה במהלך היום מהכלא, זה כמעט בלתי נקלט\"."
-        },
-        {
-            "tag": "p",
-            "attrs": {},
-            "content": [
-                {
-                    "tag": "blockquote",
-                    "attrs": {
-                        "data-lang": "he"
+[
+    {
+        "tag": "div",
+        "content": [
+            {
+                "tag": "div",
+                "attrs": {},
+                "content": [
+                    {
+                        "tag": "h1",
+                        "attrs": {},
+                        "content": "Test"
                     },
-                    "content": [
-                        {
-                            "tag": "twitter-component",
-                            "attrs": {
-                                "href": "https://twitter.com/kann_news/status/1430794642094759936"
+                    {
+                        "tag": "h2",
+                        "attrs": {},
+                        "content": "Test"
+                    },
+                    {
+                        "tag": "h3",
+                        "attrs": {},
+                        "content": "Test"
+                    },
+                    {
+                        "tag": "h4",
+                        "attrs": {},
+                        "content": "Test"
+                    },
+                    {
+                        "tag": "p",
+                        "attrs": {},
+                        "content": "Deserunt aliquip occaecat minim labore aliquip duis Lorem. Sunt nisi proident magna nulla pariatur id Lorem ipsum cupidatat. Et exercitation deserunt pariatur aute incididunt."
+                    },
+                    {
+                        "tag": "p",
+                        "attrs": {},
+                        "content": "Incididunt cupidatat ut ea eu anim. Culpa magna commodo sint fugiat minim veniam. Ea et quis et et reprehenderit est nulla fugiat ullamco. Ut irure minim ut est dolore anim."
+                    },
+                    {
+                        "tag": "p",
+                        "attrs": {},
+                        "content": "Eiusmod velit cillum elit duis duis fugiat aute elit labore. Aute deserunt id consectetur esse voluptate in nisi amet elit. Reprehenderit pariatur proident laboris officia enim tempor. Lorem mollit labore mollit consectetur veniam ullamco consectetur. Ad laborum proident veniam reprehenderit irure."
+                    },
+                    {
+                        "tag": "p",
+                        "attrs": {},
+                        "content": "Eiusmod nulla occaecat id exercitation aliquip incididunt aliqua eu occaecat. Cupidatat consequat ullamco reprehenderit eiusmod. Pariatur cillum laborum reprehenderit id est tempor. Commodo elit aliqua sit esse culpa. Magna ex adipisicing ut dolore est nulla eu sunt."
+                    },
+                    {
+                        "tag": "p",
+                        "attrs": {},
+                        "content": [
+                            "Labore reprehenderit sunt excepteur ",
+                            {
+                                "tag": "a",
+                                "attrs": {
+                                    "href": "https://www.w3schools.com"
+                                },
+                                "content": "Visit W3Schools.com!"
                             },
-                            "content": []
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "tag": "ad-component",
-            "attrs": {
-                "uid": 5
-            },
-            "content": []
-        }
-    ]
-}
+                            " ea dolore in. Velit aliqua nulla proident cillum et amet aliqua fugiat laborum. Veniam nostrud minim dolore laboris nulla ad eu aute."
+                        ]
+                    },
+                    {
+                        "tag": "ol",
+                        "attrs": {},
+                        "content": [
+                            {
+                                "tag": "li",
+                                "attrs": {},
+                                "content": "a"
+                            },
+                            {
+                                "tag": "li",
+                                "attrs": {},
+                                "content": "b"
+                            },
+                            {
+                                "tag": "li",
+                                "attrs": {},
+                                "content": "c"
+                            },
+                            {
+                                "tag": "li",
+                                "attrs": {},
+                                "content": "d"
+                            },
+                            {
+                                "tag": "li",
+                                "attrs": {},
+                                "content": "e"
+                            },
+                            {
+                                "tag": "li",
+                                "attrs": {},
+                                "content": "f"
+                            }
+                        ]
+                    },
+                    {
+                        "tag": "ul",
+                        "attrs": {},
+                        "content": [
+                            {
+                                "tag": "li",
+                                "attrs": {},
+                                "content": "a"
+                            },
+                            {
+                                "tag": "li",
+                                "attrs": {},
+                                "content": "b"
+                            },
+                            {
+                                "tag": "li",
+                                "attrs": {},
+                                "content": "c"
+                            },
+                            {
+                                "tag": "li",
+                                "attrs": {},
+                                "content": "d"
+                            },
+                            {
+                                "tag": "li",
+                                "attrs": {},
+                                "content": "e"
+                            },
+                            {
+                                "tag": "li",
+                                "attrs": {},
+                                "content": "f"
+                            }
+                        ]
+                    },
+                    {
+                        "tag": "p",
+                        "attrs": {},
+                        "content": [
+                            "This is normal text - ",
+                            {
+                                "tag": "b",
+                                "attrs": {},
+                                "content": "and this is bold text"
+                            },
+                            "."
+                        ]
+                    },
+                    {
+                        "tag": "a",
+                        "attrs": {
+                            "href": "https://www.w3schools.com"
+                        },
+                        "content": "Visit W3Schools.com!"
+                    }
+                ]
+            }
+        ]
+    }
+]
