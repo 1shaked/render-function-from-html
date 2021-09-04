@@ -70,7 +70,7 @@ def pushToArray(elements, content :list= []):
                     content[CONTENT].append(str(el.string))
         elif type(el) == element.Tag:
             if (len(content) == 0):
-                content.append({TAG: 'div', CONTENT: [] })
+                content.append({TAG: 'div', CONTENT: [], ATTRS: {} })
             if len(el.contents) == 1 and type(el.contents[0]) == element.NavigableString:
                 if type(content) == dict:
                     content[CONTENT].append({TAG: el.name,ATTRS: el.attrs, CONTENT: str(el.contents[0].string)})
@@ -104,4 +104,14 @@ def printTypesRecursive(obj): # getting the object from pushToArray method to se
 
 
     
-    
+if __name__ == "__main__":
+    with open('test.html', 'r') as f:
+        html_content: str = f.read()
+
+    print(html_content)
+    html = HtmlConverter()
+    html.initWithHtml(html_content)
+    render_func_json = html.soupToJson()
+
+    with open('test.json', 'w') as f:
+        f.write(json.dumps(render_func_json, indent=4, ensure_ascii=False))
