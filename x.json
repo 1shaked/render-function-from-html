@@ -1,0 +1,55 @@
+[
+    {
+        "html": {
+            "body": {
+                "@class": "Native",
+                "p": [
+                    {
+                        "div": [
+                            {
+                                "div": {
+                                    "@class": "a7video IVideo",
+                                    "@data-player": "{\"type\":3,\"id\":2093711,\"title\":\"צפו: ערן זהבי מברך 'הגומל'\",\"url\":\"a7radio/misc/video/21/may/VID-20210510-WA0074.mp4\",\"image\":1014138,\"author\":\"\",\"date\":\"2021-05-10T12:23:38\",\"credit\":\"באדיבות המצלם\"}",
+                                    "@data-src": "http://u.inn.co.il/media/a7radio/misc/video/21/may/VID-20210510-WA0074.mp4",
+                                    "@onclick": "if(window.Android)Android.setVideo(JSON.stringify({title:'test',src:this.getAttribute('data-src')}))",
+                                    "img": [
+                                        {
+                                            "@class": "play",
+                                            "@src": "http://a7.org/static/Images/objects/play.png"
+                                        },
+                                        {
+                                            "@class": "video",
+                                            "@src": "http://a7.org/pictures/1014/1014138.jpg"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "@class": "title",
+                                "b": {
+                                    "@style": "display: inline-block",
+                                    "#text": "צפו: ערן זהבי מברך 'הגומל'"
+                                },
+                                "span": {
+                                    "@style": "display: inline-block"
+                                }
+                            }
+                        ]
+                    },
+                    "הכדורגלן הישראלי ערן זהבי עזב אתמול את סגל קבוצתו בהולנד ונסע אל ביתו בעקבות שוד אלים שעברו אשתו וילדיו בביתם.",
+                    "לפי דיווחים, השודדים היו חמושים כשאחד מהם חדר לדירה כשהוא מתחזה לשליח. המשטרה פתחה במצוד אחרי השודדים. משטרת הולנד אמרה לכאן חדשות: \"לא פוסלים מניע אנטישמי בפריצה לביתו של זהבי, אבל זה לא כיוון החקירה הראשון\".",
+                    "רעייתו של זהבי, שי, פרסמה תגובה ראשונה בפוסט באינסטגרם וכתבה: \"עברנו מקרה מזעזע של שוד ותקיפה במקום שאמור להיות עבורנו הכי בטוח בעולם - הבית שלנו. עברו עלינו שעות קשות ואנחנו צריכים רגע לעכל. חשוב לי לציין שלא הרימו יד על הילדים והם בסדר גמור, פיזית. נפשית אנחנו כולנו נצטרך לעבוד יחד ולעבור את זה בתקופה הטובה ביותר. אני מודה לכולם מקרב לב על הדאגה ועל הרצון לעזור. זה מחמם את הלב\".",
+                    null
+                ],
+                "img": {
+                    "@src": "http://www.inn.co.il/Generic/IOS/EsiLog?type=0&item=492085",
+                    "@style": "display: none"
+                }
+            },
+            "XXX": {
+                "@src": "http://www.inn.co.il/Generic/IOS/EsiLog?type=0&item=492085",
+                "@style": "display: none"
+            }
+        }
+    }
+]
