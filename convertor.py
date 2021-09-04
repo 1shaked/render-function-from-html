@@ -1,26 +1,12 @@
 from bs4 import BeautifulSoup, element
 import json
-from json import loads
-className :str= '@class'
-video :str = 'video'
-div :str= 'div'
-img :str= 'img'
-video_class :str = 'a7video IVideo'
-youtube :str= 'youtube-component'
-style :str = '@style'
-invisible_el :str= "display: none"
-IFRAME: str= 'iframe'
-attributes_to_delete :list = [className, style, '@onclick'] # '@data-player'
+
+attributes_to_delete :list = ['@class', '@style', '@onclick'] # '@data-player'
 REMOVE_ATTRIBUTES: list= ['class','lang','language','onmouseover','onmouseout','script','style','font', 'onclick', 'data-player', 'height', 'width', 'data-bind']
-RESERVED_PROPERTIES: dict= { IFRAME: ['width', 'height'] }
-SRC: str = 'src'
-DATA_SRC = 'data-src'
+RESERVED_PROPERTIES: dict= { 'iframe': ['width', 'height'] }
 CONTENT :str= 'content'
 TAG :str= 'tag'
 ATTRS :str= 'attrs'
-BASE_URL: str = 'https://www.inn.co.il/Generic/NewApi/Item?Type=0&item='
-DATA_PLAYER: str = 'data-player'
-youtube_component = 'youtube-component'
 class HtmlConverter: 
     def __init__(self):
         pass
